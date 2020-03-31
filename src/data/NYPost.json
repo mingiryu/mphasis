@@ -1,0 +1,205 @@
+{
+    "result": "Success",
+    "data": {
+        "summary": [
+            "Like a responsible new yorker, brooklyn-based photographer jeremy cohen was cooped up in his apartment practicing social distancing during the coronavirus lockdown. In a 31-second tiktok video that has 4. 4 million views on twitter as of monday afternoon, he captures the entire meet-cute moment. But when he spotted a girl dancing on her rooftop, he channeled his inner romeo, using his balcony and technology to get her attention."
+        ],
+        "sentiments": [
+            [
+                {
+                    "subjectivity": 0.4,
+                    "polarity": -0.4,
+                    "sentence": "He\u2019s got game \u2014 and a drone."
+                }
+            ],
+            [
+                {
+                    "subjectivity": 0.357,
+                    "polarity": 0.123,
+                    "sentence": "Like a responsible New Yorker, Brooklyn-based photographer Jeremy Cohen was cooped up in his apartment practicing social distancing during the coronavirus lockdown."
+                },
+                {
+                    "subjectivity": 0.167,
+                    "polarity": 0.0,
+                    "sentence": "But when he spotted a girl dancing on her rooftop, he channeled his inner Romeo, using his balcony and technology to get her attention."
+                }
+            ],
+            [
+                {
+                    "subjectivity": 0.625,
+                    "polarity": 0.0,
+                    "sentence": "In a 31-second TikTok video that has 4.4 million views on Twitter as of Monday afternoon, he captures the entire meet-cute moment."
+                },
+                {
+                    "subjectivity": 0.375,
+                    "polarity": 0.175,
+                    "sentence": "He also notes, \u201cI can\u2019t believe this actually worked, and yes this is a true story.\u201d"
+                }
+            ],
+            [
+                {
+                    "subjectivity": 0.0,
+                    "polarity": 0.0,
+                    "sentence": "\u201cI looked out my window and saw this girl dancing, perhaps to a TikTok song,\u201d Cohen, 28, says in the video."
+                }
+            ],
+            [
+                {
+                    "subjectivity": 0.35,
+                    "polarity": 0.175,
+                    "sentence": "This thoroughly modern could-be love story started when he waved to her and she waved back, so he decided to take it a step further."
+                }
+            ],
+            [
+                {
+                    "subjectivity": 1.0,
+                    "polarity": 0.3,
+                    "sentence": "\u201cI thought she was really cute from far away,\u201d Cohen tells The Post."
+                },
+                {
+                    "subjectivity": 0.067,
+                    "polarity": 0.033,
+                    "sentence": "\u201cDuring this quarantine, I think everyone is fiending for social interaction."
+                },
+                {
+                    "subjectivity": 0.0,
+                    "polarity": 0.0,
+                    "sentence": "I was like, \u2018Oh my god, a girl."
+                },
+                {
+                    "subjectivity": 0.4,
+                    "polarity": -0.05,
+                    "sentence": "I haven\u2019t seen one for so long.\u2019 \u201d"
+                }
+            ],
+            [
+                {
+                    "subjectivity": 0.375,
+                    "polarity": -0.125,
+                    "sentence": "They could hear each other, so he told her to stay put because he was going to send her something."
+                },
+                {
+                    "subjectivity": 1.0,
+                    "polarity": 0.5,
+                    "sentence": "He wrote his number on a piece of paper, taped it to his drone and flew it to the \u201ccute\u201d brunette."
+                }
+            ],
+            [
+                {
+                    "subjectivity": 0.575,
+                    "polarity": 0.075,
+                    "sentence": "Cohen admitted that flirting is \u201cnormally daunting\u201d for him, but he also says he\u2019s a hopeless romantic."
+                },
+                {
+                    "subjectivity": 1.0,
+                    "polarity": -1.0,
+                    "sentence": "\u201c2020 has been off to a terrible start, but I still needed to shoot my shot."
+                },
+                {
+                    "subjectivity": 0.0,
+                    "polarity": 0.0,
+                    "sentence": "She picked up my drone and I guess it worked,\u201d he says in the video."
+                },
+                {
+                    "subjectivity": 0.0,
+                    "polarity": 0.0,
+                    "sentence": "The girl in the video, 28-year-old Tori Cignarella, texted him that night, but this is where their story comes to a temporary halt."
+                }
+            ],
+            [
+                {
+                    "subjectivity": 0.95,
+                    "polarity": 0.35,
+                    "sentence": "Cohen \u2014 who only started using TikTok two months ago \u2014 says they have been texting a fair amount."
+                },
+                {
+                    "subjectivity": 0.0,
+                    "polarity": 0.0,
+                    "sentence": "Cignarella commented on Instagram that \u201cPart 2 is underway!"
+                },
+                {
+                    "subjectivity": 0.0,
+                    "polarity": 0.0,
+                    "sentence": "!\u201d when one of her followers asked her if she was pursuing the viral romance."
+                }
+            ],
+            [
+                {
+                    "subjectivity": 0.0,
+                    "polarity": 0.0,
+                    "sentence": "\u201cI have asked her out on a date, but we have to figure out what it will be."
+                },
+                {
+                    "subjectivity": 0.0,
+                    "polarity": 0.0,
+                    "sentence": "I have an idea but I can\u2019t say it yet."
+                },
+                {
+                    "subjectivity": 0.675,
+                    "polarity": 0.65,
+                    "sentence": "It\u2019s not going to be in-person,\u201d says Cohen, who admits that the spotlight could either make this a great love story or dampen the moment."
+                }
+            ],
+            [
+                {
+                    "subjectivity": 0.0,
+                    "polarity": 0.0,
+                    "sentence": "\u201cI was initially worried if this was something she\u2019d be upset about."
+                },
+                {
+                    "subjectivity": 0.558,
+                    "polarity": 0.254,
+                    "sentence": "Thank god she is totally okay [with the notoriety],\u201d says the Bethlehem, Penn., native, who used his own newfound viral status to plug two initiatives: Help Main Street, which is a way to buy gift cards for small businesses, and Feeding America, a food bank organization."
+                }
+            ],
+            [
+                {
+                    "subjectivity": 1.0,
+                    "polarity": -0.5,
+                    "sentence": "\u201cI don\u2019t want to be selfish."
+                },
+                {
+                    "subjectivity": 0.6,
+                    "polarity": 0.7,
+                    "sentence": "I am just trying to use this for some good.\u201d"
+                }
+            ],
+            [
+                {
+                    "subjectivity": 0.308,
+                    "polarity": 0.263,
+                    "sentence": "He also plans on chronicling their first date, but he is working out how to make it fun for them and enjoyable for those following along online."
+                },
+                {
+                    "subjectivity": 0.889,
+                    "polarity": 0.5,
+                    "sentence": "One thing is for sure:"
+                }
+            ],
+            [
+                {
+                    "subjectivity": 0.0,
+                    "polarity": 0.0,
+                    "sentence": "\u201cThere will be a Part 2 \u2014 I promise.\u201d"
+                }
+            ]
+        ],
+        "keywords": [
+            "a responsible new yorker",
+            "brooklyn-based photographer jeremy cohen",
+            "his apartment",
+            "social distancing",
+            "the coronavirus lockdown",
+            "a 31-second tiktok video",
+            "4. 4 million views",
+            "twitter",
+            "monday afternoon",
+            "the entire meet-cute moment",
+            "a girl dancing",
+            "her rooftop",
+            "his inner romeo",
+            "his balcony and technology",
+            "her attention"
+        ]
+    }
+}

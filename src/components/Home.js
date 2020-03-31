@@ -1,11 +1,13 @@
 import React from "react";
 
-import { Container } from "@material-ui/core";
-import { Card, CardContent } from "@material-ui/core";
+import Container from "@material-ui/core/Container";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import FormControl from "@material-ui/core/FormControl";
 import OutlinedInput from "@material-ui/core/OutlinedInput";
 import InputLabel from "@material-ui/core/InputLabel";
+import Alert from "@material-ui/lab/Alert";
 
 import Info from "./Info";
 import ArticleCard from "./ArticleCard";
@@ -20,7 +22,13 @@ export default function Home(props) {
             >
                 <CardContent>
                     <Info />
-
+                    <Alert
+                        severity="warning"
+                        style={{ marginTop: 10, marginBottom: 10 }}
+                    >
+                        Processing of significantly large corpus, such as a
+                        book, can lead to an error due to internal timeouts.
+                    </Alert>
                     <FormControl
                         fullWidth
                         variant="outlined"
@@ -69,6 +77,7 @@ export default function Home(props) {
                             placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis orci a scelerisque purus semper. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Eu tincidunt tortor aliquam nulla. Pharetra magna ac placerat vestibulum lectus. Sagittis aliquam malesuada bibendum arcu."
                         />
                     </FormControl>
+
                     <Button
                         size="small"
                         color="primary"
@@ -115,6 +124,20 @@ export default function Home(props) {
                 link="/WHO"
             >
                 {require("../data/WHO").data.summary[0]}
+            </ArticleCard>
+            <ArticleCard
+                title="International Ozone Treaty Stops Changes in Southern Hemisphere Winds"
+                author="Cooperative Institute for Research in Environmental Sciences at the University of Colorado Boulder"
+                link="/CIRES"
+            >
+                {require("../data/CIRES").data.summary[0]}
+            </ArticleCard>
+            <ArticleCard
+                title="Brooklyn guy uses drone to hit on a gal during coronavirus lockdown"
+                author="Kirsten Fleming, New York Post"
+                link="/NYPost"
+            >
+                {require("../data/NYPost").data.summary[0]}
             </ArticleCard>
         </Container>
     );

@@ -89,11 +89,13 @@ class App extends React.Component {
         if (status === "completed" && this.state.data.result === "Success") {
             console.log(this.state.data);
             return (
-                <Article
-                    custom={this.state.data}
-                    title={this.state.title}
-                    author={this.state.author}
-                />
+                <ThemeProvider theme={theme}>
+                    <Article
+                        custom={this.state.data}
+                        title={this.state.title}
+                        author={this.state.author}
+                    />
+                </ThemeProvider>
             );
         } else if (status === "inprogress") {
             return (
@@ -113,7 +115,11 @@ class App extends React.Component {
             (status === "completed" && this.state.data.result !== "Success")
         ) {
             console.log(this.state.data);
-            return <Error handleError={this.handleError} />;
+            return (
+                <ThemeProvider theme={theme}>
+                    <Error handleError={this.handleError} />
+                </ThemeProvider>
+            );
         } else {
             return (
                 <BrowserRouter>
@@ -152,6 +158,20 @@ class App extends React.Component {
                                     preset="WHO"
                                     title="WHO Director-General's opening remarks at the media briefing on COVID-19 - 11 March 2020"
                                     author="World Health Organization"
+                                />
+                            </Route>
+                            <Route path="/CIRES">
+                                <Article
+                                    preset="CIRES"
+                                    title="International Ozone Treaty Stops Changes in Southern Hemisphere Winds"
+                                    author="Cooperative Institute for Research in Environmental Sciences at the University of Colorado Boulder"
+                                />
+                            </Route>
+                            <Route path="/NYPost">
+                                <Article
+                                    preset="NYPost"
+                                    title="Brooklyn guy uses drone to hit on a gal during coronavirus lockdown"
+                                    author="Kirsten Fleming, New York Post"
                                 />
                             </Route>
                             <Route path="/">

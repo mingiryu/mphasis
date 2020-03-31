@@ -19,19 +19,25 @@ export default function Error(props) {
                 }}
             >
                 <CardContent>
-                <Typography gutterBottom variant="h5">
-                    Something went wrong...
-                </Typography>
+                    <Typography gutterBottom variant="h5">
+                        Something went wrong...
+                    </Typography>
+                    <Typography variant="subtitle1" color="textSecondary" gutterBottom >
+                       It's very likely that this happened due to a timeout from processing a significantly large text.
+                    </Typography>
+                    <Typography variant="subtitle1" color="textSecondary" gutterBottom >
+                       Please try again with a smaller portion of the text. Thank you!
+                    </Typography>
 
-                <Button
-                    size="small"
-                    color="primary"
-                    variant="contained"
-                    disableElevation
-                    onClick={props.handleError}
-                >
-                    Go back to the main page
-                </Button>
+                    <Button
+                        size="small"
+                        color="primary"
+                        variant="contained"
+                        disableElevation
+                        onClick={props.handleError}
+                    >
+                        Go back to the main page
+                    </Button>
                 </CardContent>
             </Card>
         </Container>

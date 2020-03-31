@@ -1,6 +1,7 @@
 import React from "react";
 
-import { Container, Box } from "@material-ui/core";
+import Box from '@material-ui/core/Box';
+import Container from '@material-ui/core/Container';
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Chip from "@material-ui/core/Chip";
@@ -37,20 +38,20 @@ const percentageToColor = (percentage, maxHue = 120, minHue = 0) => {
 
 const getShape = n => {
     if (n > 0.8) {
-        return "open double-circle";
+        return "double-circle";
     } else if (n > 0.6) {
-        return "open circle";
+        return "open double-circle";
     } else if (n > 0.4) {
-        return "dot";
+        return "open circle";
     } else if (n > 0.2) {
         return "circle";
     } else {
-        return "double-circle";
+        return "dot";
     }
 };
 
 const getColor = n => {
-    return percentageToColor((n + 1) / 2, 240, 0);
+    return percentageToColor((n + 1.0) / 2.0, 240, 0);
 };
 
 export default function Article(props) {

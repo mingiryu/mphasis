@@ -3,13 +3,14 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Chip from "@material-ui/core/Chip";
 import Typography from "@material-ui/core/Typography";
-import { Card, CardContent } from "@material-ui/core";
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
 
 export default function Info() {
     return (
         <React.Fragment>
             <Typography gutterBottom variant="h5">
-                About
+                Mphasis
             </Typography>
 
             <Typography variant="subtitle1" color="textSecondary">
@@ -124,8 +125,8 @@ export default function Info() {
                                 variant="body1"
                                 component="span"
                                 style={{
-                                    textEmphasis: "double-circle black",
-                                    WebkitTextEmphasis: "double-circle black"
+                                    textEmphasis: "dot black",
+                                    WebkitTextEmphasis: "dot black"
                                 }}
                             >
                                 Very objective
@@ -148,8 +149,8 @@ export default function Info() {
                                 variant="body1"
                                 component="span"
                                 style={{
-                                    textEmphasis: "dot black",
-                                    WebkitTextEmphasis: "dot black"
+                                    textEmphasis: "open circle black",
+                                    WebkitTextEmphasis: "open circle black"
                                 }}
                             >
                                 Mixed
@@ -160,8 +161,9 @@ export default function Info() {
                                 variant="body1"
                                 component="span"
                                 style={{
-                                    textEmphasis: "open circle black",
-                                    WebkitTextEmphasis: "open circle black"
+                                    textEmphasis: "open double-circle black",
+                                    WebkitTextEmphasis:
+                                        "open double-circle black"
                                 }}
                             >
                                 Subjective
@@ -172,9 +174,8 @@ export default function Info() {
                                 variant="body1"
                                 component="span"
                                 style={{
-                                    textEmphasis: "open double-circle black",
-                                    WebkitTextEmphasis:
-                                        "open double-circle black"
+                                    textEmphasis: "double-circle black",
+                                    WebkitTextEmphasis: "double-circle black"
                                 }}
                             >
                                 Very subjective
