@@ -176,7 +176,7 @@ class App extends React.Component {
                             </Route>
                             <Route path="/TheScientist">
                                 <Article
-                                    preset="NYPost"
+                                    preset="TheScientist"
                                     title="Taller People More Prone to Cancer"
                                     author="Abby Olena, The Scientist Magazine"
                                 />
