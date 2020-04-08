@@ -42,6 +42,7 @@ export default function Home(props) {
                             value={props.title}
                             onChange={props.handleChange("title")}
                             labelWidth={60}
+                            placeholder="Optional"
                             multiline
                         />
                     </FormControl>
@@ -57,6 +58,7 @@ export default function Home(props) {
                             id="outlined-adornment-amount"
                             value={props.author}
                             onChange={props.handleChange("author")}
+                            placeholder="Optional"
                             labelWidth={60}
                         />
                     </FormControl>
@@ -139,6 +141,14 @@ export default function Home(props) {
             >
                 {require("../data/NYPost").data.summary[0]}
             </ArticleCard>
+            <ArticleCard
+                title="Taller People More Prone to Cancer"
+                author="Abby Olena, The Scientist Magazine"
+                link="/TheScientist"
+            >
+                {require("../data/TheScientist").data.summary[0]}
+            </ArticleCard>
+            
         </Container>
     );
 }

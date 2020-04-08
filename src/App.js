@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 import {
     createMuiTheme,
@@ -56,7 +56,7 @@ class App extends React.Component {
             })
         };
 
-        console.log(requestOptions.body);
+        //console.log(requestOptions.body);
 
         fetch(INVOKE_URL, requestOptions)
             .then(response => response.json())
@@ -87,7 +87,7 @@ class App extends React.Component {
     render() {
         const status = this.state.status;
         if (status === "completed" && this.state.data.result === "Success") {
-            console.log(this.state.data);
+            //console.log(this.state.data);
             return (
                 <ThemeProvider theme={theme}>
                     <Article
@@ -122,7 +122,7 @@ class App extends React.Component {
             );
         } else {
             return (
-                <BrowserRouter>
+                <HashRouter>
                     <ThemeProvider theme={theme}>
                         <Switch>
                             <Route path="/TheEconomist">
@@ -174,6 +174,13 @@ class App extends React.Component {
                                     author="Kirsten Fleming, New York Post"
                                 />
                             </Route>
+                            <Route path="/TheScientist">
+                                <Article
+                                    preset="NYPost"
+                                    title="Taller People More Prone to Cancer"
+                                    author="Abby Olena, The Scientist Magazine"
+                                />
+                            </Route>
                             <Route path="/">
                                 <Home
                                     handleOnClick={this.handleOnClick}
@@ -185,7 +192,7 @@ class App extends React.Component {
                             </Route>
                         </Switch>
                     </ThemeProvider>
-                </BrowserRouter>
+                </HashRouter>
             );
         }
     }

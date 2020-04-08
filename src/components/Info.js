@@ -10,9 +10,9 @@ export default function Info() {
     return (
         <React.Fragment>
             <Typography gutterBottom variant="h5">
-                Mphasis
+                Mphasis: A new way of reading articles through common NLP tasks and visualization
             </Typography>
-
+            
             <Typography variant="subtitle1" color="textSecondary">
                 Summarization
             </Typography>
