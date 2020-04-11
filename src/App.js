@@ -12,8 +12,7 @@ import Home from "./components/Home";
 import Article from "./components/Article";
 import Error from "./components/Error";
 
-const INVOKE_URL =
-    "https://vbjdr9c3x8.execute-api.us-east-1.amazonaws.com/prod";
+const INVOKE_URL = "";
 
 let theme = createMuiTheme({
     typography: {

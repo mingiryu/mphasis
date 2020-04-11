@@ -23,11 +23,10 @@ export default function Home(props) {
                 <CardContent>
                     <Info />
                     <Alert
-                        severity="warning"
+                        severity="error"
                         style={{ marginTop: 10, marginBottom: 10 }}
                     >
-                        Processing of significantly large corpus, such as a
-                        book, can lead to an error due to internal timeouts.
+                        Custom article feature has been disabled due to AWS SageMaker cost.
                     </Alert>
                     <FormControl
                         fullWidth
@@ -44,6 +43,7 @@ export default function Home(props) {
                             labelWidth={60}
                             placeholder="Optional"
                             multiline
+                            disabled
                         />
                     </FormControl>
                     <FormControl
@@ -60,6 +60,8 @@ export default function Home(props) {
                             onChange={props.handleChange("author")}
                             placeholder="Optional"
                             labelWidth={60}
+                            disabled
+
                         />
                     </FormControl>
                     <FormControl
@@ -76,6 +78,7 @@ export default function Home(props) {
                             onChange={props.handleChange("content")}
                             labelWidth={60}
                             multiline
+                            disabled
                             placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis orci a scelerisque purus semper. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Eu tincidunt tortor aliquam nulla. Pharetra magna ac placerat vestibulum lectus. Sagittis aliquam malesuada bibendum arcu."
                         />
                     </FormControl>
@@ -86,6 +89,7 @@ export default function Home(props) {
                         variant="contained"
                         disableElevation
                         onClick={props.handleOnClick}
+                        disabled
                     >
                         Create Article
                     </Button>
