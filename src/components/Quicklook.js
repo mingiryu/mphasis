@@ -45,7 +45,6 @@ const Quicklook = ({ summary, keyphrases }) => {
                 {(context) => (
                     <Box className={classes.chips}>
                         {keyphrases.map((keyphrase, idx) => {
-                            keyphrase = keyphrase.toLowerCase();
                             const on = context.chips.includes(keyphrase) ? { onDelete: context.handleClick.bind(this, keyphrase, "delete") } : { onClick: context.handleClick.bind(this, keyphrase, "click") };
                             return (<Chip key={idx} size="small" label={keyphrase} {...on} />);
                         })}
@@ -62,7 +61,7 @@ const Quicklook = ({ summary, keyphrases }) => {
                 <Typography variant="subtitle1" color="textSecondary">Summary</Typography>
                 <SummaryView />
 
-                <Typography variant="subtitle1" color="textSecondary">Key phrases</Typography>
+                <Typography variant="subtitle1" color="textSecondary">Keyphrases</Typography>
                 <KeyphrasesView />
             </CardContent>
         </Card>

@@ -24,7 +24,7 @@ const Sentence = ({ sentence, sentiment, chips }) => {
     const classes = useStyles();
 
     if (!sentiment || !sentence) return null;
-    const contains = chips.some(chip => sentence.toLowerCase().includes(chip));
+    const contains = chips.some(chip => sentence.toLowerCase().includes(chip.toLowerCase()));
     
     return (
         <Tooltip
