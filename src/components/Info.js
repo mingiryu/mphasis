@@ -1,19 +1,16 @@
 import React from "react";
 
+import Container from '@material-ui/core/Container';
 import Grid from "@material-ui/core/Grid";
 import Chip from "@material-ui/core/Chip";
 import Typography from "@material-ui/core/Typography";
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 
-export default function Info() {
+const Info = () => {
     return (
-        <React.Fragment>
-            <Typography gutterBottom variant="h5">
-                Mphasis: A new way of reading articles through common NLP tasks and visualization
-            </Typography>
-            
-            <Typography variant="subtitle1" color="textSecondary">
+        <Container >
+            <Typography variant="h6" color="textSecondary">
                 Summarization
             </Typography>
             <Typography variant="subtitle1" style={{ marginBottom: 10 }}>
@@ -28,7 +25,7 @@ export default function Info() {
                 </li>
             </Typography>
 
-            <Typography variant="subtitle1" color="textSecondary">
+            <Typography variant="h6" color="textSecondary">
                 Keyphrase Extraction
             </Typography>
             <Typography variant="subtitle1" style={{ marginBottom: 10 }}>
@@ -52,8 +49,8 @@ export default function Info() {
                             <Chip
                                 size="small"
                                 label="selected keywords"
-                                onDelete={() => {}}
-                                onClick={() => {}}
+                                onDelete={() => { }}
+                                onClick={() => { }}
                             />
                         </Grid>
                         <Grid item align="center" xs={12}>
@@ -78,7 +75,7 @@ export default function Info() {
                 </CardContent>
             </Card>
 
-            <Typography variant="subtitle1" color="textSecondary">
+            <Typography variant="h6" color="textSecondary">
                 Sentiment Analysis
             </Typography>
             <Typography variant="subtitle1" style={{ marginBottom: 10 }}>
@@ -232,25 +229,7 @@ export default function Info() {
                     </Grid>
                 </CardContent>
             </Card>
-
-            <Typography gutterBottom variant="h5">
-                How to use
-            </Typography>
-            <Typography variant="subtitle1">
-                <ul>
-                    <li>
-                        You can choose one from the samples below, or create
-                        your own.
-                    </li>
-                    <li>To create your own, follow these steps:</li>
-                    <ol>
-                        <li>Fill in the title (optional).</li>
-                        <li>Fill in the author (optional).</li>
-                        <li>Fill in the content (required).</li>
-                        <li>Press the CREATE ARTICLE button.</li>
-                    </ol>
-                </ul>
-            </Typography>
-        </React.Fragment>
+        </Container>
     );
 }
+export default Info

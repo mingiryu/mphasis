@@ -1,0 +1,1065 @@
+{
+    "status": "ok",
+    "keyphrases": [
+        "The National Reading Panel",
+        "A systematic phonics program",
+        "systematic phonics instruction",
+        "sustained silent reading",
+        "very beginning stages",
+        "teachers and parents",
+        "these guessing strategies",
+        "not guessing game",
+        "last few decades",
+        "most reliable way"
+    ],
+    "sentiments": [
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.33,
+                "polarity": 0.21
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.4,
+                "polarity": 0.1
+            },
+            {
+                "subjectivity": 0.8,
+                "polarity": 0.65
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.4,
+                "polarity": -0.23
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.55,
+                "polarity": 0.08
+            },
+            {
+                "subjectivity": 0.39,
+                "polarity": 0.17
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.65,
+                "polarity": 0.3
+            },
+            {
+                "subjectivity": 0.5,
+                "polarity": 0.25
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.61,
+                "polarity": 0.25
+            },
+            {
+                "subjectivity": 0.4,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.56,
+                "polarity": 0.5
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.58,
+                "polarity": 0.23
+            },
+            {
+                "subjectivity": 0.8,
+                "polarity": 0.4
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.3,
+                "polarity": 0.1
+            },
+            {
+                "subjectivity": 0.89,
+                "polarity": 0.5
+            },
+            {
+                "subjectivity": 0.3,
+                "polarity": 0.1
+            },
+            {
+                "subjectivity": 0.5,
+                "polarity": 0.5
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.43,
+                "polarity": 0.17
+            },
+            {
+                "subjectivity": 0.33,
+                "polarity": 0.02
+            },
+            {
+                "subjectivity": 0.46,
+                "polarity": 0.07
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.4,
+                "polarity": -0.05
+            },
+            {
+                "subjectivity": 0.9,
+                "polarity": 0.6
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.4,
+                "polarity": -0.25
+            },
+            {
+                "subjectivity": 0.37,
+                "polarity": 0.13
+            },
+            {
+                "subjectivity": 0.2,
+                "polarity": -0.1
+            }
+        ],
+        [
+            {
+                "subjectivity": 1,
+                "polarity": 0.4
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.45,
+                "polarity": 0.3
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.4,
+                "polarity": 0.15
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.45,
+                "polarity": 0.14
+            },
+            {
+                "subjectivity": 0.37,
+                "polarity": 0.27
+            },
+            {
+                "subjectivity": 0.5,
+                "polarity": 0.12
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.33,
+                "polarity": 0.25
+            },
+            {
+                "subjectivity": 0.47,
+                "polarity": 0.27
+            },
+            {
+                "subjectivity": 1,
+                "polarity": 0.4
+            },
+            {
+                "subjectivity": 0.32,
+                "polarity": 0.3
+            },
+            {
+                "subjectivity": 0.6,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.45,
+                "polarity": 0.3
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.32,
+                "polarity": 0.13
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.4,
+                "polarity": -0.25
+            },
+            {
+                "subjectivity": 0.57,
+                "polarity": -0.17
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.4,
+                "polarity": -0.3
+            },
+            {
+                "subjectivity": 0.23,
+                "polarity": -0.12
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.5,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.25,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.65,
+                "polarity": 0.55
+            },
+            {
+                "subjectivity": 0.72,
+                "polarity": 0.38
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.55,
+                "polarity": -0.03
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 1,
+                "polarity": 0.6
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.43,
+                "polarity": 0.17
+            },
+            {
+                "subjectivity": 0.23,
+                "polarity": 0.07
+            },
+            {
+                "subjectivity": 0.3,
+                "polarity": 0.3
+            },
+            {
+                "subjectivity": 0.48,
+                "polarity": 0.33
+            },
+            {
+                "subjectivity": 0.56,
+                "polarity": 0.5
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.3,
+                "polarity": 0.1
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.12,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.6,
+                "polarity": 0.33
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.5,
+                "polarity": 0.5
+            },
+            {
+                "subjectivity": 0.26,
+                "polarity": 0.03
+            },
+            {
+                "subjectivity": 0.38,
+                "polarity": 0.25
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.5,
+                "polarity": 0.5
+            },
+            {
+                "subjectivity": 0.4,
+                "polarity": -0.07
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 1,
+                "polarity": 0.6
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.37,
+                "polarity": 0.23
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.2,
+                "polarity": 0.1
+            },
+            {
+                "subjectivity": 0.53,
+                "polarity": 0.22
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.4,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.2,
+                "polarity": 0.2
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.1,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0.3
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.4,
+                "polarity": 0.3
+            },
+            {
+                "subjectivity": 0.4,
+                "polarity": -0.1
+            },
+            {
+                "subjectivity": 0.62,
+                "polarity": 0.08
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.5,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.5,
+                "polarity": -0.15
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.28,
+                "polarity": -0.07
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.5,
+                "polarity": 0.1
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.26,
+                "polarity": -0.02
+            },
+            {
+                "subjectivity": 0.45,
+                "polarity": 0.35
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.75,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.5,
+                "polarity": 0.35
+            },
+            {
+                "subjectivity": 0.38,
+                "polarity": 0.12
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.3,
+                "polarity": 0.05
+            },
+            {
+                "subjectivity": 0.29,
+                "polarity": -0.16
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.25,
+                "polarity": 0.25
+            },
+            {
+                "subjectivity": 0.3,
+                "polarity": 0.1
+            }
+        ],
+        [
+            {
+                "subjectivity": 1,
+                "polarity": 0.4
+            },
+            {
+                "subjectivity": 0.33,
+                "polarity": 0.28
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.23,
+                "polarity": -0.01
+            },
+            {
+                "subjectivity": 0.39,
+                "polarity": -0.21
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.4,
+                "polarity": 0.1
+            },
+            {
+                "subjectivity": 0.36,
+                "polarity": 0.2
+            },
+            {
+                "subjectivity": 0.36,
+                "polarity": -0.03
+            },
+            {
+                "subjectivity": 0.37,
+                "polarity": 0.33
+            },
+            {
+                "subjectivity": 0.45,
+                "polarity": 0.35
+            },
+            {
+                "subjectivity": 0.38,
+                "polarity": -0.12
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.39,
+                "polarity": 0.38
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.44,
+                "polarity": 0.19
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.47,
+                "polarity": 0.3
+            },
+            {
+                "subjectivity": 0.5,
+                "polarity": 0.5
+            },
+            {
+                "subjectivity": 0.45,
+                "polarity": 0.1
+            },
+            {
+                "subjectivity": 0.88,
+                "polarity": 0.38
+            },
+            {
+                "subjectivity": 0.38,
+                "polarity": 0.12
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.75,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.4,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.42,
+                "polarity": 0.08
+            },
+            {
+                "subjectivity": 0.4,
+                "polarity": 0.1
+            },
+            {
+                "subjectivity": 0.67,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.65,
+                "polarity": 0.15
+            },
+            {
+                "subjectivity": 1,
+                "polarity": 0.4
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.39,
+                "polarity": 0.11
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.4,
+                "polarity": 0.4
+            },
+            {
+                "subjectivity": 0.3,
+                "polarity": 0.1
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.52,
+                "polarity": 0.13
+            },
+            {
+                "subjectivity": 0.3,
+                "polarity": 0.1
+            },
+            {
+                "subjectivity": 0.5,
+                "polarity": 0.05
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.26,
+                "polarity": -0.02
+            },
+            {
+                "subjectivity": 0.12,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.47,
+                "polarity": 0.27
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.2,
+                "polarity": 0.2
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.3,
+                "polarity": 1
+            },
+            {
+                "subjectivity": 0.2,
+                "polarity": 0.05
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.61,
+                "polarity": 0.28
+            },
+            {
+                "subjectivity": 0.4,
+                "polarity": -0.07
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.5,
+                "polarity": 0.33
+            },
+            {
+                "subjectivity": 0.67,
+                "polarity": 0.3
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.45,
+                "polarity": 0.45
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.33,
+                "polarity": 0.17
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.37,
+                "polarity": 0.07
+            },
+            {
+                "subjectivity": 0.5,
+                "polarity": 0.5
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.3,
+                "polarity": 0.1
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.3,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.6,
+                "polarity": 0.7
+            },
+            {
+                "subjectivity": 0.3,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.8,
+                "polarity": 0.1
+            },
+            {
+                "subjectivity": 0.45,
+                "polarity": 0.35
+            },
+            {
+                "subjectivity": 0.28,
+                "polarity": 0.22
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.27,
+                "polarity": 0.02
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.35,
+                "polarity": 0.12
+            },
+            {
+                "subjectivity": 0.36,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.41,
+                "polarity": 0.35
+            },
+            {
+                "subjectivity": 0.5,
+                "polarity": 0.16
+            },
+            {
+                "subjectivity": 0.49,
+                "polarity": 0.29
+            },
+            {
+                "subjectivity": 0.53,
+                "polarity": 0.35
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.23,
+                "polarity": 0.17
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.47,
+                "polarity": 0.2
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.4,
+                "polarity": 0.1
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.65,
+                "polarity": 0.2
+            },
+            {
+                "subjectivity": 0.69,
+                "polarity": 0.31
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.41,
+                "polarity": 0.19
+            },
+            {
+                "subjectivity": 0.6,
+                "polarity": 0.2
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.6,
+                "polarity": 0.5
+            },
+            {
+                "subjectivity": 0.45,
+                "polarity": 0.48
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.12,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.11,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.85,
+                "polarity": 0.1
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.5,
+                "polarity": 0.5
+            },
+            {
+                "subjectivity": 0.27,
+                "polarity": 0.23
+            },
+            {
+                "subjectivity": 0.1,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0.63,
+                "polarity": 0.03
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.59,
+                "polarity": 0.33
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.31,
+                "polarity": 0.15
+            },
+            {
+                "subjectivity": 0.2,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.58,
+                "polarity": 0.08
+            },
+            {
+                "subjectivity": 0.51,
+                "polarity": 0.2
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.19,
+                "polarity": 0.05
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.4,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.5,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            },
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ],
+        [
+            {
+                "subjectivity": 0.17,
+                "polarity": -0.17
+            }
+        ],
+        [
+            {
+                "subjectivity": 0,
+                "polarity": 0
+            }
+        ]
+    ]
+}

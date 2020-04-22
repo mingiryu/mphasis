@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { Card, CardContent } from "@material-ui/core";
 import { Container } from "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 
-export default function Error(props) {
+const Error = () => {
     return (
         <Container maxWidth="md" disableGutters>
             <Card
@@ -15,7 +16,8 @@ export default function Error(props) {
                     position: "absolute",
                     left: "50%",
                     top: "50%",
-                    transform: "translate(-50%, -50%)"
+                    minWidth: 300,
+                    transform: "translate(-50%, -50%)",
                 }}
             >
                 <CardContent>
@@ -23,23 +25,14 @@ export default function Error(props) {
                         Something went wrong...
                     </Typography>
                     <Typography variant="subtitle1" color="textSecondary" gutterBottom >
-                       It's very likely that this happened due to a timeout from processing a significantly large text.
+                       Please try again. Thank you!
                     </Typography>
-                    <Typography variant="subtitle1" color="textSecondary" gutterBottom >
-                       Please try again with a smaller portion of the text. Thank you!
-                    </Typography>
-
-                    <Button
-                        size="small"
-                        color="primary"
-                        variant="contained"
-                        disableElevation
-                        onClick={props.handleError}
-                    >
-                        Go back to the main page
+                    <Button size="small" color="primary" variant="contained" component={Link} to="/">
+                        back to the main page
                     </Button>
                 </CardContent>
             </Card>
         </Container>
     );
 }
+export default Error
